@@ -1,0 +1,32 @@
+.button {
+    color: #a716c1;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 60px;
+    border-radius: 9999rem;
+    background: rgb(64, 234, 160);
+    box-shadow: 0 12px 24px 0 color-mix(in oklab, black, transparent 90%);
+    position: relative;
+    overflow: hidden;
+}
+
+.button {
+    appearance: none;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    isolation: isolate;
+  }
+
+  .body {
+    width: 100dvw;
+    height: 100dvh;
+    background: #e7cf1b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
